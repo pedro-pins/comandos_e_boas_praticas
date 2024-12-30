@@ -1,1 +1,2 @@
 # comandos_e_boas_praticas
+Aqui teremos comandos para facilitar os usuários de linux, docker, openstack, kubernetes entre outros que uso e aprendi durante esse tempo de estudo, estou documentando tudo aqui para relembrar quando estiver mais facilitado. 
