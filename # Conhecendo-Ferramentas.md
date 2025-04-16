@@ -1,132 +1,194 @@
-# Conhecendo-Ferramentas
+# Conhecendo Ferramentas
+
+Aqui vamos reunir uma curadoria prática e objetiva sobre ferramentas essenciais no dia a dia de profissionais de tecnologia — de infraestrutura a desenvolvimento.
+
+---
 
 ## Sumário
-1. [Linux](#linux) - O básico para começar no mundo open source.
-2. [VsCode](#vscode) - Editor de código versátil para desenvolvedores.
-3. [Providers](#providers) - Gerenciadores de recursos na nuvem.
-4. [Gitlab](#gitlab) - Controle de versão e integração contínua.
-5. [Docker](#docker) - Containerização para ambientes consistentes.
-6. [Portainer](#portainer) - Gerenciamento simplificado de containers.
-7. [Mikrotik](#mikrotik) - Configuração e administração de redes.
-8. [OpenStack](#openstack) - Solução open source para nuvens privadas.
-9. [Proxmox](#proxmox) - Gerenciamento de máquinas virtuais e containers.
-10. [Grafana](#grafana) - Visualização e monitoramento de dados.
-11. [Loki](#loki) - Log centralizado para observabilidade.
-12. [Ansible](#ansible) - Automação de infraestrutura.
-13. [Terraform](#terraform) - Infraestrutura como código.
-14. [Nginx](#nginx) - Servidor web e proxy reverso.
+
+1. [Linux](#linux)
+2. [VSCode](#vscode)
+3. [Providers (AWS, Azure, etc.)](#providers)
+4. [GitLab](#gitlab)
+5. [Docker](#docker)
+6. [Portainer](#portainer)
+7. [Mikrotik](#mikrotik)
+8. [OpenStack](#openstack)
+9. [Proxmox](#proxmox)
+10. [Grafana](#grafana)
+11. [Loki](#loki)
+12. [Ansible](#ansible)
+13. [Terraform](#terraform)
+14. [Nginx](#nginx)
 
 ---
 
-### Linux
-#### O que é?
+## Linux
+
+### O que é?
 Linux é um sistema operacional open source baseado em Unix. Ele oferece flexibilidade, segurança e é amplamente usado em servidores, dispositivos IoT e sistemas embarcados.
 
-#### Por que usar?
-- Open source e gratuito.
-- Seguro e estável para servidores e desenvolvimento.
-- Comunidade ativa e vasta documentação.
+### Por que usar?
+- Gratuito e de código aberto
+- Seguro e estável
+- Ampla documentação e comunidade
 
-#### Como começar?
-- Instale uma distribuição popular, como Ubuntu ou Fedora.
+### Como começar?
+- Instale uma distribuição como Ubuntu, Fedora ou Debian.
 - Aprenda comandos básicos do terminal.
-- Configure o sistema com base nas suas necessidades: [Guia Oficial do Ubuntu](https://ubuntu.com/tutorials).
+- Configure o sistema conforme sua necessidade.
 
-#### Instalação, configuração e algumas melhorias
-- Faça o download da distribuição desejada.
-- Crie um pendrive bootável usando ferramentas como Rufus ou Balena Etcher.
-- Configure o sistema com atualizações e pacotes essenciais:  
-  ```bash
-  sudo apt update && sudo apt upgrade
-  sudo apt install build-essential curl git
-  ```
-- Ajuste o desempenho com melhorias no gerenciamento de energia e swap.
+### Instalação e configuração:
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install build-essential curl git
+```
 
-#### Redes
-- Configure endereços IP e DNS:
-  ```bash
-  sudo nano /etc/netplan/01-netcfg.yaml
-  sudo netplan apply
-  ```
-- Verifique conectividade com comandos como `ping` e `traceroute`.
+### Configurações de Rede:
+```bash
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+```
 
-#### Instalação de Programas
-- Use o gerenciador de pacotes para instalar programas:
-  ```bash
-  sudo apt install nome-do-programa
-  ```
-- Explore ferramentas como Snap e Flatpak para obter mais opções.
+### Instalação de Programas:
+```bash
+sudo apt install nome-do-programa
+```
 
-#### Começando no mundo Open Source
-- Participe de comunidades no GitHub, Reddit ou fóruns de distribuições específicas.
-- Contribua com pequenos projetos open source para ganhar experiência.
-
-#### Recursos adicionais
-- [Comandos básicos de Linux](https://github.com/user/comandos-linux)
-- [Tutoriais gratuitos de Linux](https://linux.org/forums/linux-beginner-tutorials.123/)
+### Recursos adicionais:
+- [Comandos Linux - Repositório de Referência](https://github.com/user/comandos-linux)
+- [Tutoriais para iniciantes (Linux.org)](https://linux.org/forums/linux-beginner-tutorials.123/)
+- [Documentação Oficial do Ubuntu](https://ubuntu.com/tutorials)
 
 ---
 
-### Providers
-*Conteúdo em desenvolvimento.*
+## VSCode
+
+Editor de código leve e extensível da Microsoft, amplamente usado por desenvolvedores front-end e back-end.
+
+- [Documentação oficial](https://code.visualstudio.com/docs)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Gitlab
-*Conteúdo em desenvolvimento.*
+## Providers (AWS, Azure, etc.)
+
+Serviços de nuvem que fornecem infraestrutura sob demanda.
+
+- [AWS Documentation](https://docs.aws.amazon.com/)
+- [Azure Documentation](https://learn.microsoft.com/azure/)
+- [Google Cloud Docs](https://cloud.google.com/docs)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### VsCode
-*Conteúdo em desenvolvimento.*
+## GitLab
+
+Plataforma de DevOps que integra controle de versão, CI/CD e gerenciamento de projetos.
+
+- [Documentação oficial](https://docs.gitlab.com/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Docker
-*Conteúdo em desenvolvimento.*
+## Docker
+
+Ferramenta para empacotar aplicações em containers, garantindo consistência entre ambientes.
+
+- [Documentação oficial](https://docs.docker.com/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Portainer
-*Conteúdo em desenvolvimento.*
+## Portainer
+
+Interface de gerenciamento para Docker e Kubernetes.
+
+- [Documentação oficial](https://docs.portainer.io/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Mikrotik
-*Conteúdo em desenvolvimento.*
+## Mikrotik
+
+Fabricante de equipamentos de rede e software RouterOS.
+
+- [Documentação oficial](https://help.mikrotik.com/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### OpenStack
-*Conteúdo em desenvolvimento.*
+## OpenStack
+
+Plataforma open source para criação de nuvens privadas.
+
+- [Documentação oficial](https://docs.openstack.org/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Proxmox
-*Conteúdo em desenvolvimento.*
+## Proxmox
+
+Solução para virtualização baseada em KVM e LXC, com gerenciamento via interface web.
+
+- [Documentação oficial](https://pve.proxmox.com/pve-docs/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Grafana
-*Conteúdo em desenvolvimento.*
+## Grafana
+
+Ferramenta de visualização de métricas e dashboards dinâmicos.
+
+- [Documentação oficial](https://grafana.com/docs/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Loki
-*Conteúdo em desenvolvimento.*
+## Loki
+
+Solução de logging integrada ao Grafana.
+
+- [Documentação oficial](https://grafana.com/docs/loki/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Ansible
-*Conteúdo em desenvolvimento.*
+## Ansible
+
+Automatizador de configurações e tarefas em infraestrutura.
+
+- [Documentação oficial](https://docs.ansible.com/)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Terraform
-*Conteúdo em desenvolvimento.*
+## Terraform
+
+Ferramenta de infraestrutura como código, gerenciando recursos em vários provedores.
+
+- [Documentação oficial](https://developer.hashicorp.com/terraform/docs)
+
+*(Conteúdo em desenvolvimento)*
 
 ---
 
-### Nginx
-*Conteúdo em desenvolvimento.*
+## Nginx
+
+Servidor web e proxy reverso de alta performance.
+
+- [Documentação oficial](https://nginx.org/en/docs/)
+
+*(Conteúdo em desenvolvimento)*
 
