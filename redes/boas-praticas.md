@@ -1,6 +1,6 @@
 # Boas Práticas em Redes
 
-Este documento tem como objetivo reunir boas práticas aplicadas no contexto de redes, com foco em segurança, desempenho e manutenção de ambientes de produção. As recomendações estão organizadas por categorias.
+Este documento tem como objetivo reunir boas práticas aplicadas no contexto de redes, com foco em segurança, desempenho e manutenção de ambientes de produção. As recomendações estão organizadas por categorias por aqui vamos aprender que todo acesso deverá ser solicitad, agendado e documentado para não se perder em meio a ambiente de produção. 
 
 ## 1. VPN (Virtual Private Network)
 
